@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ddd;
+
+}
+
+.todo
+{
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10% auto;
+    box-shadow: 0 1px 2px #aaa;
+    text-align: center;
+}
+table {
+    margin-top: 20px;
+    width: 100%;
+
+}
+td, th {
+     border: solid #eee;
+     padding: 6px;
+
+ }
+.form {
+     width: 100%;
+     margin-top: 30px;
+
+ }
+input {
+     padding: 6px;
+     border-radius: 6px;
+     border: 1px solid#aaa;
+     width: calc(100% - 12px);
+     margin-bottom: 10px;
+ }
+
+.submit {
+     background: #4072b8;
+     color: white;
+     padding: 8px;
+     cursor: pointer;
+     width: 100%;
+     border-radius: 6px;
+     margin-top: 20px;
+     border: none;
+ }
+
